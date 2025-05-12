@@ -1,0 +1,12 @@
+@import url(./header.css);
+@import url(./mario.btn.css);
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+
+    overflow-y: hidden;
+}

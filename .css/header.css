@@ -1,0 +1,65 @@
+@import url(./mario.btn.css);
+
+
+header {
+    width: 100%;
+    height: 16%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+#user_profile {
+    width: 7vw;
+    height: 3vh;
+
+    background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.user_picture {
+    width: 10vw;
+    height: 4vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(./../img/Retrato\ de\ Van\ Gogh\ com\ _DAMN._.png);
+    background-position: center;
+
+}
+
+.user_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#nav_button {
+    width: 5vw;
+    height: 1vh;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.mario_box {
+    background-color: aliceblue;
+}
