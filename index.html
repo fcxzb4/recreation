@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BRIDGET</title>
+  <link
+            rel="stylesheet"
+            href="./index.css">
 
     <script src="https://kit.fontawesome.com/6912b079ba.js"
             crossorigin="anonymous"></script>
@@ -12,9 +15,57 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
             crossorigin="anonymous"></script>
+
+       <script type="module"
+            src="./index.js"></script>      
                     
 </head>
 <body>
-    
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar_navbar_inverse_navbar_fixed_top">
+            <div class="collapse_navbar_collapse" id="myNavbar">
+                <ul class="nav_navbar-nav">
+                    <li class="font"><a class="scrollable" href="#about"> Matheus Something</a></li>
+                    <li><a class="scrollable" href="#about">about me</a></li>
+                    <li><a class="scrollable" href="#design">designed by me</a></li>
+                    <li><a class="scrollable" href="#contact">find me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="about">
+        <h1>ABOUT ME</h1>
+        <p>My name is Douglas Heitner. I have always been fascinated by UI/UX design. I love simple and elegant designs that accomplish more with less. In the words of one of my favorite write/poet/aviator:
+            <blockquote>It seems that perfection is attained not when there is nothing more to add, but when there is nothing more to remove.
+                <footer>Antoine de Saint Exupéry</footer>
+            </blockquote>
+        </p>
+    </div>
+    <div class="container-fluid" id="design">
+        <h1 id="remove_opacity">DESIGNED BY ME</h1>
+        <div class="card card-1">
+            <h1 class="placeholder">Place Holder 300x300</h1></div>
+        <div class="card card-1">
+            <h1 class="placeholder">Place Holder 300x300</h1></div>
+        <div class="card card-1">
+            <h1 class="placeholder">Place Holder 300x300</h1></div>
+        <div class="card card-1">
+            <h1 class="placeholder">Place Holder 300x300</h1></div>
+        <div class="card card-1">
+            <h1 class="placeholder">Place Holder 300x300</h1></div>
+        <div class="card card-1">
+            <h1 class="placeholder">Place Holder 300x300</h1></div>
+    </div>
+    <div class="container" id="contact">
+        <h1>FIND ME</h1>
+        <div class="icons center-block">
+            <a  target="_blank"><span class="socialMediaSpan fa fa-facebook fa-3x facebookBtn"></span></a>
+            <a  target="_blank"><span class="socialMediaSpan fa fa-twitter fa-3x twitterBtn"></span></a>
+            <a  target="_blank"><span class="socialMediaSpan fa fa-linkedin fa-3x linkedinBtn"></span></a>
+            <a  target="_blank"><span class="socialMediaSpan fa fa-instagram fa-3x instagramBtn"></span></a>
+            <a  target="_blank"><span class="socialMediaSpan fa fa-codepen fa-3x codepenBtn"></span></a>
+        </div>
+    </div>
+</body>
 </body>
 </html>
